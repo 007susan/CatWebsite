@@ -1,0 +1,106 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    color: #B5A594;
+    background-color: #272727;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 4vw;
+    padding: 3vw;
+  }
+  
+  p {
+    font-size: 1.5em;
+    padding: 3vw;
+    margin: 3vh;
+  }
+  
+  .card {
+    margin: 3vh 2vw;
+  }
+  
+  .card p {
+    font-size: 1em;
+  }
+  
+  /* Object-fit: cover enables zoom instead of image stretching for the card images. */
+  .card img {
+    width: auto;
+    height: 60vh;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1em;
+  }
+  
+  .card-text {
+    font-size: 3vh;
+  }
+  
+  /* Scoped image class to make carousel images a certain size. I set a max-height because the pictures were not aligning for my friend with a bigger screen. */
+  .carousel-item img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    max-height: 100vh;
+  }
+  
+  .footer {
+    position: relative;
+    bottom: 0; 
+    width: 100%;
+    text-align: right;
+  }
+  
+  .nav a{
+    color: #DAAD86;
+    padding: 1vw;
+    object-fit: fill;
+    font-size: 2vw;
+  }
+  
+  .nav a:hover{
+    color: #BC986A;
+    background-color: #454545
+  }
+  
+  #home-paragraph,
+  #breed-paragraph {
+    padding: 1vw;
+    margin: 4vw;
+    text-align: center;
+  /*   Around 20px font for these paragraphs */
+    font-size: 1.25em;
+  }
+  
+  #diet-paragraph {
+    font-size: 1em;
+    text-align: start;
+  }
+  
+  /* For the small screen homies */
+  @media (max-width: 576px) {
+      p {
+        font-size: 2vh;
+      }
+    
+      .carousel-item img {
+        height: 400px;  
+        max-height: 400px;
+      }
+    
+      .card img {
+        width: auto;
+        height: 400px;
+        min-height: 400px;
+      }
+  
+      .nav a {
+        font-size: 2vh;
+      }
+  }
