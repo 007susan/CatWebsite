@@ -113,6 +113,7 @@
   .flex-right__dry,
   .flex-right__mix,
   .flex-right__wet {
+    padding: 4em;
     width: 70%;
   }
 
