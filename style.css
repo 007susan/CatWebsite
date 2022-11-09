@@ -18,7 +18,7 @@
   }
 
   p {
-    font-size: 1.5em;
+    font-size: 1.75em;
     padding: 3vw;
     margin: 3vh;
   }
@@ -78,7 +78,7 @@
   
   .nav a:hover{
     color: #BC986A;
-    background-color: #454545
+    background-color: #454545;
   }
 
   /* Flexbox container :) */
@@ -90,7 +90,7 @@
     padding: 2em;
   }
   
-/* Flexbox left for food*/
+  /* Flexbox left for food*/
   .flex-left__dry,
   .flex-left__mix,
   .flex-left__wet {
@@ -129,7 +129,7 @@
     padding: 1vw;
     margin: 4vw;
     text-align: center;
-  /*   Around 20px font for these paragraphs */
+  /* Around 20px font for these paragraphs */
     font-size: 1.25em;
   }
 
@@ -138,7 +138,15 @@
       p {
         font-size: 2vh;
       }
-    
+      
+      h1 {
+        font-size: x-large;
+      }
+
+      #home-paragraph {
+        font-size: 1em;
+      }
+
       .carousel-item img {
         height: 400px;  
         max-height: 400px;
@@ -154,7 +162,13 @@
         font-size: 2vh;
       }
 
-      .flex-right__dry {
-        max-width: fit-content;
+      .flex-container__dry,
+      .flex-container__mix,
+      .flex-container__wet {
+        font-size: 3vw;
+        text-align: start;
+        padding: 1px;
+        margin: 0 auto;
+        color: #000;     
       }
   }
