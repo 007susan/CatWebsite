@@ -6,6 +6,9 @@
 ## **Overview**
 This was a website created with HTML5, CSS properties + flexbox, and Bootstrap.
 
+
+Link: https://007susan.github.io/CatWebsite/
+
 ## **My process**
 It was an interesting and fun experience to combine Bootstrap with CSS. In this project, I learned to override and customize some Bootstrap classes with custom CSS styling. I also experimented with responsive design. 
 
